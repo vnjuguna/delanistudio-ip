@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+}
+.wrapper{
+  margin: 0 auto;
+  width:  1000px;
+}
+
+.image-delanistudio{
+  width: 1400px;
+  height: 600px;
+  background-image: url(/images/background/h_img.jpg);
+  background-size: 100%;
+}
+
+h2{
+  text-align: center;
+}
+
+.image-keyboard{
+  width: 1400px;
+  height: 600px;
+  background-image: url(/images/background/s_image.jpg);
+  background-size: 100%;
+}
+.images{
+  display: flex;
+  flex-wrap:wrap;
+  margin: 0 50px;
+  padding:30px;
+}
+
+.photo{
+  max-width: 31.333%;
+  padding: 0 10px;
+  height: 240px;
+}
+
+.photo img{
+  width: 80%;
+  height: 80%;
+}
+
+.image-contactus{
+  width: 1400px;
+  height: 600px;
+  background-image: url(/images/background/c_image.jpg);
+  background-size: 100%;
+}
